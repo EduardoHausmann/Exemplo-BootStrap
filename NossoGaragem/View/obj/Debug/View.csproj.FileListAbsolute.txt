@@ -148,3 +148,7 @@ T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\obj\Debug\View.csproj.C
 T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\obj\Debug\View.csproj.CopyComplete
 T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\obj\Debug\View.dll
 T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\obj\Debug\View.pdb
+T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\bin\Model.dll
+T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\bin\Repository.dll
+T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\bin\Model.pdb
+T:\Documentos\GitHub\Exemplo-Bootstrap\NossoGaragem\View\bin\Repository.pdb
