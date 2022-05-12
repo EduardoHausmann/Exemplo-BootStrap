@@ -1,9 +1,6 @@
 ﻿using Model;
 using Repository;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace View.Controllers
@@ -23,7 +20,7 @@ namespace View.Controllers
             repository = new CategoriaRepository();
         }
 
-         //GET: Categoria
+        //GET: Categoria
         public ActionResult Index()
         {
             List<Categoria> categorias = repository.ObterTodos();

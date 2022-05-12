@@ -1,11 +1,8 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
 
 namespace Repository
 {
@@ -41,7 +38,7 @@ INNER JOIN categorias ON
             tabela.Load(comando.ExecuteReader());
 
             List<Veiculo> veiculos = new List<Veiculo>();
-            foreach(DataRow linha in tabela.Rows)
+            foreach (DataRow linha in tabela.Rows)
             {
                 Veiculo veiculo = new Veiculo();
                 veiculo.Id = Convert.ToInt32(linha["VeiculoId"]);
